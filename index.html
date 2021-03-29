@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/81b2bf8630.js" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mikki Blue | Home</title>
+</head>
+<body>
+
+    <button id="btnScrollToTop">Top <i class="fas fa-arrow-up"></i></button>
+
+    <!-- Header/Navbar/Landing Page ---------->
+    <section id="header" class="jumbotron jumbotron-fluid">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-md nav-item-container">
+              <a class="nav-link brand-link" href="#">Mikki Blue<i class="fas fa-paw"></i></a>
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#subscribe">Subscribe</a>
+                  </li>
+                  </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="container landing-overlay">
+            <div class="content-text">
+              <h5 class="display-6">Hey there!</h5>
+              <p class="lead">My name is Mikki. I'm a pure-bred Aussie Shepherd who loves to compete &mdash; <br> and loves to win even more.</p>
+                <a id="list-example" role="button" style="color: white;" class="btn btn-md btn-1 shadow-none" href="#about">See More<i class="fas fa-chevron-down"></i></a>
+                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+            </div>
+            <div class="content-pic">
+                <img src="img/profile-pic.jpg" alt="me" class="profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me ------------------->
+    <section id="about">
+        <div class="card mx-auto" style="max-width: 2000px; border-radius: 0;">
+            <div class="row g-0">
+                <div class="col-md-6 row g-0 align-items-center">
+                    <img src="img/what_i_do.jpg" class="w-100" alt="...">
+                </div>
+                <div class="col-md-6 row g-0 align-items-center text">
+                    <div class="card-body">
+                    <h3 class="card-title">What I Do</h3>
+                    <p class="card-text">Being active is the most important thing in my life. Playing for leisure is fun, but my real passion is competing. I train at a bare minimum 25 hours per week, depending on my owner or trainer's availability, for all kinds of competitions. I have attended numerous dog shows in the southern region to show off my abilities in tricky obstacle courses, and I have always placed in the top ten — even the top five on several occasions.</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </section>
+
+    <!-- Awards/Recognitions ------------>
+    <section id="awards">
+        <div class="card-group">
+            <div class="card text-center counter-card">
+                <i class="icon card-img fas fa-trophy fa-3x" style="z-index: 2;"></i>
+                <div class="card-img-overlay">
+                    <p class="card-text">Competitions</p>
+                    <h5 id="number1" class="card-title counter numvalue" data-target="14">0</h5>
+                </div>
+            </div>
+            <div class="card text-center counter-card">
+                <i class="icon card-img fas fa-award fa-3x" style="z-index: 2;"></i>
+                <div class="card-img-overlay">
+                    <p class="card-text">Awards</p>
+                    <h5 id="number2" class="card-title counter numvalue" data-target="22">0</h5>
+                </div>
+            </div>
+            <div class="card text-center counter-card">
+                <i class="icon card-img fas fa-hourglass-start fa-3x" style="z-index: 2;"></i>
+                <div class="card-img-overlay">
+                    <p class="card-text">Hours Trained</p>
+                    <h5 id="number3" class="card-title counter3 numvalue" data-target="3000">0</h5>
+                </div>
+            </div>
+            <div class="card text-center">
+                <i class="icon card-img fas fa-dog fa-3x" style="z-index: 2;"></i>
+                <div class="card-img-overlay">
+                    <p class="card-text">Pedigree</p>
+                    <h5 class="card-title">AKC Certified</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training -------------------->
+    <section id="training">
+        <div class="card mx-auto" style="max-width: 2000px; border-radius: 0;">
+            <div class="row g-0 flex-wrap-reverse">
+                <div class="col-md-6 row g-0 align-items-center text">
+                    <div class="card-body">
+                    <h3 class="card-title">How I train</h3>
+                    <p class="card-text">If there's a big space, whether indoors or outdoors, then I can train. Typically I can be found training indoors, in a similar environment to that of a professional competition. This requires my owner and I to rent out space at our local gym — and sometimes I get a discount for being adorable. Regardless, I can train outside just as well as I can train inside. My mom owns a gargantuan yard, where she sets up all kinds of obstacle courses and practice runs for me.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 row g-0 align-items-center">
+                    <img src="img/training.jpg" class="w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Team section ---------------->
+    <section id="myteam">
+        <div class="team-title container" style="max-width: 250px;">
+            <h1 class="text-center section-title">My Team</h1>
+        </div>
+        <p class="lead text-center">&ldquo; Talent wins games, but teamwork and intelligence win championships. &rdquo; &mdash; Michael Jordan</p>
+        <div class="container team-info text-center" style="max-width: 1500px;">
+            <div class="row row-cols-1 row-cols-md-3 p-0">
+                <div class="col">
+                  <div class="card">
+                    <img src="img/owner-pic.jpg" class="card-img-top mx-auto" style="max-width: 200px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alisha Miller</h5>
+                      <div class="d-flex justify-content-center">
+                        <p class="card-text p-2">Hi there! I'm Mickey's beloved owner, or her "mom". Ever since welcoming her into the family five years ago, I knew that she was going to be a perfect companion, and a champion. I have been helping to train her since she was a puppy.</p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/trainer-pic.jpg" class="card-img-top mx-auto" style="max-width: 200px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Zach Wilson</h5>
+                      <div class="d-flex justify-content-center">
+                        <p class="card-text p-3">My name is Zach, and I'm a professional dog trainer serving Jeffesron and Orleans Parishes in Louisiana. I specialize in agility training and often work with dogs like Mickey to prepare them for the best of dog shows locally and nationally.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="img/friend-pic.jpg" class="card-img-top mx-auto" style="max-width: 200px;" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cocoa</h5>
+                      <div class="d-flex justify-content-center">
+                        <p class="card-text p-3">Hello, humans! I'm Cocoa, and I'm Mickey's partner-in-crime (meaning, we're best friends). I belong to Mickey's professional trainer, Zach. Mikki and I often train together — but more importantly, we play together all the time!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Gallery ---------------->
+    <section id="gallery">
+      <div class="team-title container" style="max-width: 250px;">
+        <h1 class="text-center section-title">Gallery</h1>
+      </div>
+      <p class="lead text-center">&ldquo; Practice puts brains in your muscles. &rdquo; &mdash; Sam Snead</p>
+      <div class="container-fluid" style="max-width: 1750px;">
+        <div class="row">
+          <div class="col">
+            <img src="img/pair2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col">
+            <img src="img/train-2.jpg" alt="" class="card-img">
+          </div>
+          <div class="col">
+            <img src="img/train-3.jpg" alt="" class="card-img">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="img/train-1.jpg" alt="" class="card-img">
+          </div>
+          <div class="col">
+            <img src="img/train-5.jpg" alt="" class="card-img">
+          </div>
+          <div class="col">
+            <img src="img/train-6.jpg" alt="" class="card-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe Section ------------------>
+    <section id="subscribe">
+      <div class="team-title container" style="max-width: 250px;">
+        <h1 class="text-center section-title">Subscribe</h1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-4x" style="color: #ff0000;"></i></a>
+        </div>
+        <div class="col">
+          <a href="https://instagram.com" target="_blank"><img class="iconimg" src="img/instagram.png" alt=""></a>
+        </div>
+        <div class="col">
+          <a href="https://tiktok.com" target="_blank"><img class="iconimg" src="img/tiktok.png" alt=""></a>
+        </div>
+        <div class="col">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-4x" style="color: #3b5998;"></i></a>
+        </div>
+        <div class="col">
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-4x" style="color: #55acee;"></i></a>
+        </div>
+      </div>
+      <div class="card mx-auto" style="max-width: 1500px; border-radius: 0;">
+        <div class="row g-0">
+          <div class="col-md-6 row g-0 align-items-center">
+            <img src="img/laptoppaws.jpg" class="w-100" alt="...">
+          </div>
+            <div class="col-md-6 row g-0 align-items-center text">
+                <div class="card-body">
+                <h3 class="card-title">@Mikkiblue</h3>
+                <p class="card-text">I got my start on YouTube, when mom decided to start a vlog channel after adopting me. Little did she know that within two years my videos would rake in millions of views combined! My favorite platforms are, and probably always will be, YouTube and TikTok. My following grows every day, and I'd love to see you be a part of it. Watch me do what I love! </p>
+                <button class="btn"><a class="btn-sub" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">Subscribe!</a></button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AKC-Promo -------------------------- -->
+    <section id="kennelclub">
+      <div class="card mx-auto" style="max-width: 1500px; background: inherit;">
+        <div class="row g-0">
+            <div class="col-md-6 row g-0 align-items-center text akc-textbox">
+                <div class="card-body" style="background: #fff;">
+                  <h3 class="card-title">American Kennel Club</h3>
+                  <div class="inner-content">
+                    <p class="card-text my-3">My owner and I are proud members of the American Kennel Club, the largest registry of purebred dog pedigrees in the United States. With registration comes access to several exclusive benefits, including AKC’s Canine Care packages. Come join the family!</p>
+                    <img class="card-img my-3" src="img/AKC_Seal_1884_blue_wR.jpg" alt="img"></img>
+                  </div>
+                  <a href="https://www.akc.org/register/" target="_blank"><button class="btn shadow-none">Register <i class="fas fa-chevron-right"></i></button></a>
+                </div>
+            </div>
+            <div class="col-md-6 row g-0 align-items-center">
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer ------------------------------- -->
+    <footer id="footer" class="py-3">
+      <div class="container-md footer">
+        <div class="copyright text-center">Made with <i class="fas fa-heart" style="color: #c90000"></i> in Mandeville, Louisiana &mdash; Jill Moynan. &copy;Copyright 2021</div>
+        <div class="socials text-center">
+          <a href="https://www.linkedin.com" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.github.com" class="github" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
