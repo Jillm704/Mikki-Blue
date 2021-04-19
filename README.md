@@ -1,2 +1,2 @@
 # Mikki-Blue
-Updated "Dogspace" website - part 3.
+This original practice website is an overhaul of my very first solo project, "DogSpace", created when I first began learning HTML and CSS. This version was created primarily with Bootstrap, but also includes custom CSS and JavaScript code.
